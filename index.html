@@ -7,6 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="Marius Johansen">
+		
+		<!-- jQuery from Google -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>		
+		
+		<!-- flowplayer http://flowplayer.org/docs/ -->
+		<script src="http://releases.flowplayer.org/5.3.2/flowplayer.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://releases.flowplayer.org/5.3.2/skin/minimalist.css" />
 
         <!-- Bootstrap css from BootstrapCDN -->
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -48,14 +55,15 @@
             <div class="container">
                 <h1>Testing the things.</h1>
 
-                <img src="https://dl.dropbox.com/u/7866073/website/img/Soldier.png">
+                <div class="flowplayer">
+					<video src="https://dl.dropbox.com/u/7866073/out4.flv"></video>
+				</div>
             </div>
         </div>
 
-        <!-- jQuery from Google -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <!-- Bootstrap js from BootstrapCDN -->
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
+		
     </body>
 
 </html>
