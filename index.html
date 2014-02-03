@@ -8,11 +8,14 @@
         <meta name="description" content="">
         <meta name="author" content="Marius Johansen">
 		
-		<link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
-		<script src="//vjs.zencdn.net/4.2/video.js"></script>
-		
-		<!-- jQuery from Google -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>			
+		<!-- 1. skin -->
+		<link rel="stylesheet" href="//releases.flowplayer.org/5.4.6/skin/minimalist.css">
+		 
+		<!-- 2. jquery library -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		 
+		<!-- 3. flowplayer -->
+		<script src="//releases.flowplayer.org/5.4.6/flowplayer.min.js"></script>			
 
         <!-- Bootstrap css from BootstrapCDN -->
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -55,11 +58,11 @@
             <div class="container">
                 <h1>Marve, draztic og flyvemaskinen</h1>
 
-                <video id="out6" class="video-js vjs-default-skin"
-					controls preload="auto" width="640" height="264"					
-					data-setup='{"example_option":true}'>
-				 <source src="https://dl.dropboxusercontent.com/u/7866073/passout-conv.mp4" type='video/mp4' />				 
-				</video>
+                <div class="flowplayer">
+				   <video>					  
+					  <source type="video/mp4"  src="https://dl.dropboxusercontent.com/u/7866073/out6.flv">
+				   </video>
+				</div>
             </div>
         </div>
 
